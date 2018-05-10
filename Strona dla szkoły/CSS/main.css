@@ -1,0 +1,44 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchField {
+    display: flex;
+    text-align: center;
+    border: none;
+    width: 50%;
+    height: 10%;
+}
+.searchVoiceIcon {
+    display: flex;
+    width: 10px;
+    margin: 10px; 
+}
+.contact {
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formText {
+    display: flex;
+    margin: 5px;
+    border: 5px solid #fdf9f9;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+.sendFormButton {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    margin: 5px;
+}
+/*bottomPage.copyright {
+    display: flex;
+    border: 5px solid black;
+}*/
