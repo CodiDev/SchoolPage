@@ -1,0 +1,104 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchField {
+    display: flex;
+    text-align: center;
+    border: none;
+    width: 50%;
+    height: 10%;
+}
+.searchVoiceIcon {
+    display: flex;
+    width: 10px;
+    margin: 10px; 
+}
+.contact {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formText {
+    display: flex;
+    margin: 5px;
+    border: 5px solid #fdf9f9;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+.sendFormButton {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    margin: 5px;
+}
+/*.copyright {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}*/
+.findUsOnSocialMedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.findUsOnSocialMediaImage {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.schoolName {
+    font-size: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.navigationText {
+    margin: 5px;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+.schoolNameText::after {
+    display: flex;
+    content: "|";
+    margin-left: 5px;
+    margin-right: 5px;
+    border: rgb(31, 83, 143);
+}
+.schoolNameText {
+    display: flex;
+}
+.welcomeText {
+    display: flex;
+}
+.lines {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.line1,.line2 {
+    display: flex;
+    width: calc(100%/6);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.line1 {
+    border: 5px solid rgb(47, 145, 170);
+}
+.line2 {
+    border: 5px solid rgb(81, 255, 0);
+}
+.findUsOnSocialMediaText {
+    display: flex;
+    flex-wrap: nowrap;
+}
